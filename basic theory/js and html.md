@@ -13,7 +13,7 @@ Number of special JS methods, objects, functions that we can use to interact wit
 
 The browser turns every HTML tag in a JS object, each object models one of the elements, and everything is stored inside of the *document* object
 
-![Screenshot](./images/Domscreenshot.png)
+![Screenshot](../images/Domscreenshot.png)
 
 ### The Process of DOM Manipulation
 
