@@ -1,4 +1,4 @@
-# Bootcamp Theory
+# The Web Developer Bootcamp Theory
 
 This repository contains my notes which were taken during https://www.udemy.com/the-web-developer-bootcamp and https://www.udemy.com/the-advanced-web-developer-bootcamp
 
