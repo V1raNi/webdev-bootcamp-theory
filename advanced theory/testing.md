@@ -9,6 +9,42 @@ What we need for testing:
 - A way of describing the code we are testing
 - A tool where we can make assertions or expectations about our code
 
+#### Table of Contents
+
+- [Testing Basics](#testing-basics)
+      - [Table of Contents](#table-of-contents)
+  - [TDD and BDD](#tdd-and-bdd)
+    - [Test Driven Development](#test-driven-development)
+    - [Behavior Driven Development](#behavior-driven-development)
+  - [Types of Tests](#types-of-tests)
+    - [Unit Tests](#unit-tests)
+    - [Integration Tests](#integration-tests)
+    - [Acceptance Tests](#acceptance-tests)
+    - [Stress Testing](#stress-testing)
+  - [Jasmine](#jasmine)
+    - [Jasmine Syntax and Matchers](#jasmine-syntax-and-matchers)
+      - [Matchers](#matchers)
+    - [Writing Better Tests with Hooks](#writing-better-tests-with-hooks)
+      - [beforeEach](#beforeeach)
+      - [afterEach](#aftereach)
+      - [beforeAll/afterAll](#beforeallafterall)
+    - [Testing Larger Test Suites](#testing-larger-test-suites)
+      - [Nesting Describe](#nesting-describe)
+      - [Pending Tests](#pending-tests)
+      - [Number of Expect's](#number-of-expects)
+    - [Mocking](#mocking)
+    - [Spies](#spies)
+      - [Creating a Spy](#creating-a-spy)
+      - [Testing Parameters](#testing-parameters)
+      - [Returning a Value](#returning-a-value)
+        - [Why Use a Spy](#why-use-a-spy)
+      - [Testing frequency](#testing-frequency)
+    - [Clock](#clock)
+      - [setTimeout](#settimeout)
+      - [setInterval](#setinterval)
+      - [Testing Async Code](#testing-async-code)
+  - [Mocha](#mocha)
+
 ## TDD and BDD
 
 ### Test Driven Development

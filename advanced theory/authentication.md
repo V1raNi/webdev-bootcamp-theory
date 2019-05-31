@@ -1,5 +1,16 @@
 # Authentication
 
+#### Table of Contents
+
+- [Authentication](#authentication)
+      - [Table of Contents](#table-of-contents)
+  - [One Way Hashing](#one-way-hashing)
+      - [Example of Hashing](#example-of-hashing)
+    - [Sign In (Authentication)](#sign-in-authentication)
+    - [JWT (JSON Web Token)](#jwt-json-web-token)
+      - [Authentication](#authentication-1)
+      - [Sending JWT to Server](#sending-jwt-to-server)
+
 ## One Way Hashing
 
 It's converting data into a fixed length has string; we can only recreate the hash if we know the original data

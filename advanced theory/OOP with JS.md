@@ -1,5 +1,33 @@
 # Closures, 'this', and OOP
 
+#### Table of Contents
+
+- [Closures, 'this', and OOP](#closures-this-and-oop)
+      - [Table of Contents](#table-of-contents)
+  - [Closures](#closures)
+    - [Private Variables](#private-variables)
+  - [Keyword This](#keyword-this)
+    - [Global context](#global-context)
+      - [Global With Strict](#global-with-strict)
+    - [Implicit (Object) Binding](#implicit-object-binding)
+    - [Call Apply Bind (Explicit Binding)](#call-apply-bind-explicit-binding)
+      - [Call](#call)
+      - [Apply](#apply)
+      - [Bind](#bind)
+    - ['New' Keyword](#new-keyword)
+  - [OOP in JS](#oop-in-js)
+    - [Intro to OOP](#intro-to-oop)
+      - [Constructor Functions](#constructor-functions)
+    - [The 'New' Keyword](#the-new-keyword)
+    - [Multiple Constructors](#multiple-constructors)
+    - [Prototypes](#prototypes)
+      - [Prototype Chain](#prototype-chain)
+    - [Adding Methods to Prototype (Refactoring)](#adding-methods-to-prototype-refactoring)
+    - [Prototypal Inheritance](#prototypal-inheritance)
+      - [Object.create](#objectcreate)
+      - [Why not 'new'?](#why-not-new)
+      - [Resetting the Constructor](#resetting-the-constructor)
+
 ## Closures
 
 A closure is a function that makes use of variables defined in outer functions that have previously returned

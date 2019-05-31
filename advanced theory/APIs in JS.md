@@ -4,6 +4,21 @@ This section mostly requires information which is in JS backend doc
 
 The main difference is that we don't load new pages, we are sending and receiving requests with data
 
+#### Table of Contents
+
+- [JSON API with JS](#json-api-with-js)
+      - [Table of Contents](#table-of-contents)
+  - [Endpoints](#endpoints)
+  - [Responding with JSON](#responding-with-json)
+  - [Routes](#routes)
+    - [Index](#index)
+    - [Create](#create)
+    - [Show](#show)
+  - [Update](#update)
+  - [Delete](#delete)
+  - [Helpers](#helpers)
+  - [Serving a Static File](#serving-a-static-file)
+
 ## Endpoints
 
 Endpoints are basically routes

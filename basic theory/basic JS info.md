@@ -1,5 +1,41 @@
 # JS knowledge doc
 
+#### Table of Contents
+
+- [JS knowledge doc](#js-knowledge-doc)
+      - [Table of Contents](#table-of-contents)
+  - [DRY concept](#dry-concept)
+  - [Semicolons](#semicolons)
+  - [Data types](#data-types)
+  - [Numerical operators](#numerical-operators)
+  - [Strings](#strings)
+  - [Variables](#variables)
+  - [Methods for exercises](#methods-for-exercises)
+  - [Comparison operators](#comparison-operators)
+  - [Logical operators](#logical-operators)
+    - ['Truthy' or 'Falsy' statements](#truthy-or-falsy-statements)
+  - [Conditionals](#conditionals)
+    - [Ternary operator](#ternary-operator)
+  - [Loops](#loops)
+    - [While loop](#while-loop)
+    - [For loop](#for-loop)
+  - [Functions](#functions)
+    - [Arguments](#arguments)
+    - [Return keyword](#return-keyword)
+    - [Function Declaration vs Function Expression](#function-declaration-vs-function-expression)
+    - [Pure Functions](#pure-functions)
+    - [Scope](#scope)
+    - [Higher Order Functions](#higher-order-functions)
+  - [Arrays](#arrays)
+    - [Some array methods](#some-array-methods)
+    - [Array iteration](#array-iteration)
+    - [Comparing arrays and objects](#comparing-arrays-and-objects)
+      - [Array](#array)
+      - [Object](#object)
+    - [Nested objects and arrays](#nested-objects-and-arrays)
+    - [Adding methods to an object](#adding-methods-to-an-object)
+    - [The Keyword This](#the-keyword-this)
+
 ## DRY concept
 
 Don't Repeat Yourself\

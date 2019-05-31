@@ -2,6 +2,41 @@
 
 Asynchronous events are those occurring independently of the main program flow (Don't call us, we'll call you)
 
+#### Table of Contents
+
+- [Asynchronous JS](#asynchronous-js)
+      - [Table of Contents](#table-of-contents)
+  - [Callback Functions](#callback-functions)
+    - [forEach](#foreach)
+    - [findIndex](#findindex)
+  - [The Stack and the Heap](#the-stack-and-the-heap)
+    - [Call Stack](#call-stack)
+    - [Heap](#heap)
+    - [Stack Example](#stack-example)
+  - [setTimeout and setInterval](#settimeout-and-setinterval)
+    - [setTimeout](#settimeout)
+    - [setInterval](#setinterval)
+  - [The Event Loop and the Queue](#the-event-loop-and-the-queue)
+      - [The Queue](#the-queue)
+      - [The Event Loop](#the-event-loop)
+      - [Queue Example](#queue-example)
+      - [Queue Example: Waiting for the Stack to Empty](#queue-example-waiting-for-the-stack-to-empty)
+      - [JavaScript Is Single Threaded](#javascript-is-single-threaded)
+  - [Promises](#promises)
+      - [Creating a Promise](#creating-a-promise)
+      - [.then and .catch](#then-and-catch)
+      - [Handling Errors](#handling-errors)
+      - [Randomly Occuring Errors](#randomly-occuring-errors)
+      - [setTimeout and Promises](#settimeout-and-promises)
+      - [Asynchronous Handlers of .then and .catch](#asynchronous-handlers-of-then-and-catch)
+    - [Promise chaining](#promise-chaining)
+      - [Nested Async Callbacks](#nested-async-callbacks)
+      - [Returing a Promise: Promise Chaining](#returing-a-promise-promise-chaining)
+      - [Promise Chaining: Returning Data](#promise-chaining-returning-data)
+      - [Nested Callbacks: Refactored](#nested-callbacks-refactored)
+      - [Promise.all](#promiseall)
+      - [Promises in Practice](#promises-in-practice)
+
 ## Callback Functions
 
 It is a function that is passed into another function as a parameter then invoked by that other function

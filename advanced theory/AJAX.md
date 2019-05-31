@@ -2,6 +2,30 @@
 
 Asynchronous Javascript and XML
 
+#### Table of Contents
+
+- [AJAX](#ajax)
+      - [Table of Contents](#table-of-contents)
+  - [What Is AJAX](#what-is-ajax)
+    - [XML and JSON](#xml-and-json)
+      - [XML](#xml)
+      - [JSON](#json)
+  - [Requests](#requests)
+    - [XMLHTTP Request (XHR)](#xmlhttp-request-xhr)
+      - [Problems with XHR](#problems-with-xhr)
+    - [Fetch](#fetch)
+      - [Fetch Options](#fetch-options)
+      - [Fetch Error Handling](#fetch-error-handling)
+      - [Problem with Fetch](#problem-with-fetch)
+  - [jQuery and Axios](#jquery-and-axios)
+    - [jQuery](#jquery)
+      - [$.ajax](#ajax)
+      - [$.get](#get)
+      - [$.post](#post)
+      - [$.json](#json)
+    - [Axios](#axios)
+      - [Axios Error Handling](#axios-error-handling)
+
 ## What Is AJAX
 
 AJAX is not:

@@ -1,5 +1,16 @@
 # Advanced Array Methods
 
+#### Table of Contents
+
+- [Advanced Array Methods](#advanced-array-methods)
+      - [Table of Contents](#table-of-contents)
+  - [forEach](#foreach)
+  - [map](#map)
+  - [filter](#filter)
+  - [some](#some)
+  - [every](#every)
+  - [reduce](#reduce)
+
 ## forEach
 
 - Iterates through an array
