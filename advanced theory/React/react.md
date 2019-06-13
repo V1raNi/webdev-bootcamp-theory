@@ -784,6 +784,30 @@ And in this case we've got state in TicTacToe and we also need state in Navbar, 
 
 The common solution is if two components both need some state, that state needs to be pushed up to a parent, so the App component will own state and pass that data down into the TicTacToe component as props
 
+
+#### Changing State in a Parent Component
+
+If you need to change state in a parent component, do it with callbacks:
+
+```javascript
+// parent component
+handleInput = (inputValue) => {
+  this.setState = ({
+    value: inputValue,
+  });
+}
+
+...
+
+render() {
+  return <ChildComponent handleInput={this.handleInput} />
+}
+
+// child component
+// where you need to call your function:
+this.props.handleInput(newValue);
+```
+
 #### Bad Practice
 
 - Never duplicate our state and never assign a prop to our state
